@@ -29,10 +29,6 @@ The core idea: agents should reason about *what they don't know* (epistemic gove
 | [cloudflare_durable_ex](https://github.com/jmanhype/cloudflare_durable_ex) | Elixir | Cloudflare Durable Objects client for Elixir |
 | [ace-playbook](https://github.com/jmanhype/ace-playbook) | Python | Adaptive Code Evolution — self-modifying agent architecture |
 
-## Infrastructure
-
-4-node Tailscale mesh: Mac Mini (gateway, BEAM runtime), MacBook Pro (development), Linux GPU server (3090, training/inference), Windows workstation (Draco, orchestration). OpenClaw for cross-node agent dispatch.
-
 ## Organizational theory
 
 The architecture draws from Stafford Beer's Viable System Model (1972) — recursive autonomy with meta-systemic coordination. Each agent subsystem mirrors VSM's System 1-5 structure: operations, coordination, optimization, intelligence, policy.
